@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Links and Images</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <a href="https://www.theodinproject.com/lessons/foundations-links-and-images">click me</a>
+    <!-- This is a basic link which opens in the same tab -->
+    <a href="https://www.theodinproject.com/lessons/foundations-links-and-images" 
+    target="_blank" rel="noopener noreferrer">click me!</a>
+    <!-- this opens in a new tab due to the _blank as target, the rel= is used for security as it ensures the new tab doesn't
+    have access to the previous tab which may contain sensitive information, the noreferrer prevents the new tab from
+sending referral info back to the oringal page which further improves security -->
+    <a href="./pages/about.html">About</a> 
+    <!-- This is a relative link as it links within our site to the about page created in the about.html file
+    the links above are absolute links, they link to pages on other websites -->
+    <!-- the pages/ is done becasue the about.html is in a different directroy (file) -->
+
+    <img src="./images/dog.jpg" alt="A pug"> 
+    <!-- img is a self-closing element so does not need a closing tag -->
+</body>
+</html>
